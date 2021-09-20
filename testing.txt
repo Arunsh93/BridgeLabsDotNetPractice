@@ -1,6 +1,5 @@
 <<<<<<< HEAD
 Testing in Local
 Hi From Arun
-From Remote
 =======
 
