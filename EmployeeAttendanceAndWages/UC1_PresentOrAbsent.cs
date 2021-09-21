@@ -16,9 +16,14 @@ namespace EmployeeAttendanceAndWages
             int result = random.Next(0, 2);
 
             if (result == is_Full_Time)
+            {
                 Console.WriteLine("Employee is Present");
+                UC2_CalculateWages.DailyWages();
+            }
             else
+            {
                 Console.WriteLine("Employee is Absent");
+            }
         }
     }
 }
