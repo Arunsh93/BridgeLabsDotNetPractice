@@ -6,7 +6,7 @@ namespace EmployeeAttendanceAndWages
 {
     class UC2_CalculateWages
     {
-        public static void DailyWages()
+      /*  public static void DailyWages()
         {
             //Variables
             int Emp_Rate_Per_Hour = 20;
@@ -17,6 +17,6 @@ namespace EmployeeAttendanceAndWages
             empWages = empHrs * Emp_Rate_Per_Hour;
             Console.WriteLine("Employee Wages : " + empWages);
 
-        }
+        }*/
     }
 }

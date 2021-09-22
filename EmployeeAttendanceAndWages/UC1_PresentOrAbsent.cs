@@ -8,9 +8,9 @@ namespace EmployeeAttendanceAndWages
         /// Defines the entry point of the application.
         /// </summary>
         /// <param name="args">The arguments.</param>
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
-            
+
             int is_Full_Time = 1;
             Random random = new Random();
             int result = random.Next(0, 2);
@@ -24,6 +24,6 @@ namespace EmployeeAttendanceAndWages
             {
                 Console.WriteLine("Employee is Absent");
             }
-        }
+        }*/
     }
 }
