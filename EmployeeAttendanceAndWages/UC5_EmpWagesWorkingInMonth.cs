@@ -11,7 +11,7 @@ namespace EmployeeAttendanceAndWages
         public const int IS_FULL_TIME = 2;
         public const int EMP_RATE_PER_HOUR = 20;
         public const int NUMBER_OF_WORKING_DAYS = 20;
-        static void Main(String[] args)
+        public static void EmpWagesWorkingInMonth()
         {
             //Variables
             int EmpHrs = 0;

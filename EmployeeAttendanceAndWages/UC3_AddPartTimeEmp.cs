@@ -10,7 +10,7 @@ namespace EmployeeAttendanceAndWages
         /// Defines the entry point of the application.
         /// </summary>
         /// <param name="args">The arguments.</param>
-      /* static void Main(String[] args)
+        public static void AddPartTimeEmp()
         {
             //Constants
             int IS_PART_TIME = 1;
@@ -21,10 +21,12 @@ namespace EmployeeAttendanceAndWages
             int EmpHrs = 0;
             int EmpWage = 0;
 
+            //Random Function
             Random random = new Random();
             int CheckEmp = random.Next(0, 3);
             Console.WriteLine("Random Number : " + CheckEmp);
 
+            //Computations
             if(CheckEmp == IS_PART_TIME)
             {
                 EmpHrs = 4;
@@ -40,6 +42,6 @@ namespace EmployeeAttendanceAndWages
 
             EmpWage = EmpHrs * EMP_RATE_PER_HOUR;
             Console.WriteLine("Employee Wage is : " + EmpWage);
-        }*/
+        }
     }
 }

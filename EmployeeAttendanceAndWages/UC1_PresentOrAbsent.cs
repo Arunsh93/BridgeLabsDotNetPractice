@@ -8,7 +8,7 @@ namespace EmployeeAttendanceAndWages
         /// Defines the entry point of the application.
         /// </summary>
         /// <param name="args">The arguments.</param>
-        /*static void Main(string[] args)
+        public static void CheckEmp()
         {
 
             int is_Full_Time = 1;
@@ -18,12 +18,11 @@ namespace EmployeeAttendanceAndWages
             if (result == is_Full_Time)
             {
                 Console.WriteLine("Employee is Present");
-                UC2_CalculateWages.DailyWages();
             }
             else
             {
                 Console.WriteLine("Employee is Absent");
             }
-        }*/
+        }
     }
 }
